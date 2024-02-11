@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="exo2.js"></script>
+    <link rel="stylesheet" type="text/css" href="exo2.css">
+</head>
+
+<body>
+    <div id = "container">
+        <h1>Calcul de notes</h1>
+        <hr>
+        <div>
+            <p>
+                Notes du premier Semestre
+            </p>
+
+            <div>
+                <label for="note1">Note devoir 1</label>
+                <input type="text" id="note1" name="note1" />
+            </div>
+
+            <div>
+                <label for="note2">Note devoir 2</label>
+                <input type="text" id="note2" name="note2" />
+            </div>
+
+            <div>
+                <label for="note3">Note devoir 3</label>
+                <input type="text" id="note3" name="note3" />
+            </div>
+
+
+            <p>
+                <input type="button" value="Calculer" onclick="calculer();" />
+            </p>
+            <p>
+                La moyenne est <span id="moyenne">0</span>
+            </p>
+            <div id="resultat" style="visibility: hidden;">
+                <p>
+                    <span id="appreciation"></span>
+                </p>
+            </div>
+        </div>
+</body>
+
+</html>
